@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ohashizu</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="./index.js"></script>
+
+    <!--animate-->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+      
+
+</head>
+<body onload="randomBackground()" >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a style="font-family:CatCafe" class="navbar-brand" id="website" href="#"><h1>ohashi</h1></a>
+        
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img style="width:30px" src="src/icons/dropdown.png">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a style="font-family:CatCafe" id="menuButton" class="nav-link" onclick="menu('home')" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-family:CatCafe" id="menuButton" class="nav-link" onclick="menu('about')" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-family:CatCafe" id="menuButton" class="nav-link" onclick="menu('contacts')" href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-family:CatCafe" id="menuButton" class="nav-link" onclick="menu('projects')" href="#">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- menu -->
+    <div id="menu">
+        <h1>ohashi</h1>
+        <h3>オオハシ</h3>
+        <p>developer | editor | anime enthusiast</p>
+        <p>
+            <a href="https://twitter.com/notjackli" target="_blank">twitter - </a> 
+            <a href="https://github.com/ohashizu" target="_blank">github - </a>
+            <a href="https://myanimelist.net/profile/toucane" target="_blank"> mal </a>
+        </p>
+    </div>
+</body>
+</html>

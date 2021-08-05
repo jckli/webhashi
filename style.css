@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Versatile";
+    src: url("./src/fonts/Versatile-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "CatCafe";
+    src: url("./src/fonts/CatCafe.ttf") format("truetype");
+}
+
+@keyframes fadebackground {
+    from {opacity:0;}
+    to {opacity:1;}
+  }
+
+body {
+    overflow: hidden;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("src/backgrounds/background.jpg") center center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
+    background-color: #000;
+    opacity: 1.0;
+    animation: fadebackground 2s;
+}
+
+#website {
+    padding-left: 20px;
+}
+
+#menuButton {
+    color:white;
+}
+
+a {
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navbar {
+    position:absolute;
+    align-items: right;
+}
+
+#navbarNav {
+    padding-right: 20px;
+}
+
+#menu {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color:white;
+    font-family: CatCafe;
+}
+
+#menu a,p {
+    font-size: 30px;
+}
