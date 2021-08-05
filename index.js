@@ -36,7 +36,7 @@ function menu(x){
             <div id = "menu">
             <h1>hey! my name is ohashi</h1>
             <p>thanks for visiting my website. currently,<br>
-            im not doing anything.
+            im not doing anything. come back later.
             </p>
         </div>
         `
