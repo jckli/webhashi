@@ -11,7 +11,7 @@ function randomBackground(){
         "src/backgrounds/bg9.png", 
         "src/backgrounds/bg10.jpg"
     ];
-    document.getElementsByTagName('body')[0].style.background = "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), " + 'url(' + backgrounds[Math.floor(Math.random() * backgrounds.length)] + ')';
+    document.getElementsByTagName('body')[0].style.background = "linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), " + 'url(' + backgrounds[Math.floor(Math.random() * backgrounds.length)] + ')';
 }
 
 function menu(x){
@@ -55,7 +55,9 @@ function menu(x){
         case "projects":
             var div = `
             <div id = "menu">
-            <h1>no projects right now</h1>
+            <p>SpotiStats 
+                <a href="https://github.com/ohashizu/SpotiStats"><u>Github</u></a>
+            </p>
         </div>
         `
             $("#menu").replaceWith(div)
